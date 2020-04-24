@@ -1,6 +1,8 @@
 This mod requires one of my others mods: SLDFItemsInShops 
 https://github.com/shaygover/BTshopsupgrade
 
+For game v1.9
+
 Add two levels of heatsinks, weight loss plates and targeting enhancers to the game. 
 
 Two levels are offered: 
