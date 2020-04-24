@@ -1,0 +1,37 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 400000,
+        "Rarity" : 6,
+        "Purchasable" : true,
+        "Manufacturer" : "SLDF",
+        "Model" : "SLDF_Rgrav (6)",
+        "UIName" : "SLDF Rgrav (6)",
+        "Id" : "SLDF_Rgrav_heavy",
+        "Name" : "SLDF Rgrav (6)",
+        "Details" : "SLDF Royal Reverse Gravity fields generators (Rgravs).",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "-6t",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : -6,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

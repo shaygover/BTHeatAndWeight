@@ -1,0 +1,34 @@
+{
+    "DissipationCapacity" : 11,
+    "Description" : {
+        "Cost" : 180000,
+        "Rarity" : 7,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Generic Triple",
+        "UIName" : "Generic Triple Heat Sink (T)",
+        "Id" : "Gear_HeatSink_RGeneric_Triple",
+        "Name" : "Generic Reversed Triple Heat Sink (T)",
+        "Details" : "Triple Heat Sinks provide higher efficiency than standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 11 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 5,
+    "Tonnage" : 3,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : null,
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "component_type_lostech"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

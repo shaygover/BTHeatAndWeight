@@ -1,0 +1,37 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "Description" : {
+        "Cost" : 81000,
+        "Rarity" : 2,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "GRgrav (1.4)",
+        "UIName" : "Generic Rgrav (1.4)",
+        "Id" : "GRgrav_medium",
+        "Name" : "Generic Rgrav (1.4)",
+        "Details" : "Generic attempt to reverse the SLDF Royal Reverse Gravity fields generators (Rgravs). Mediocre results as best",
+        "Icon" : "uixSvgIcon_equipment_Gyro"
+    },
+    "BonusValueA" : "-1.4t",
+    "BonusValueB" : "",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : -1.4,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

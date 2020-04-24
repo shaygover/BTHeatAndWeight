@@ -1,0 +1,18 @@
+{
+    "Name": "HeatAndWeight",
+    "Enabled": true,
+    
+    "DependsOn": ["SLDFItemsInShops"],
+
+    "Version": "0.1.1",
+    "Description": "Adds better Heatsinks, Reverse Gravity fields generators (Rgravs) and Targeting enhancers to shops. Two levels of item: SLDF grade and a bulky attempt to create it. The bulky attempt does less, take more space and weight more (or generates just a mediocre gravity field)",
+    "Author": "tharbad08",
+    "Website": "",
+    "Contact": "Use github Issues",
+
+    "Manifest": [
+        { "Type": "ItemCollectionDef", "Path": "items", "ShouldAppendText": true },
+        { "Type": "UpgradeDef", "Path": "upgrade" },
+        { "Type": "HeatSinkDef", "Path": "heat" }
+    ]
+} 
