@@ -1,5 +1,5 @@
 {
-    "DissipationCapacity" : 8,
+    "DissipationCapacity" : 10,
     "Description" : {
         "Cost" : 360000,
         "Rarity" : 7,
@@ -12,7 +12,7 @@
         "Details" : "Triple Heat Sinks provide higher efficiency than standard Heat Sinks, though with increased bulkiness. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
         "Icon" : "uixSvgIcon_equipment_Heatsink"
     },
-    "BonusValueA" : "- 8 Heat / Turn",
+    "BonusValueA" : "- 10 Heat / Turn",
     "BonusValueB" : "",
     "ComponentType" : "HeatSink",
     "ComponentSubType" : "Heatsink",

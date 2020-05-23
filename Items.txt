@@ -4,7 +4,7 @@ Heat:
 Type        SLDF                       * Generic
             Size | Ton | Heat | Cost   * Size | Ton | Heat | Cost
 Double  *   1    | 1   | 5    | 250000 * 3    | 2   | 7    | 125000
-Triple  *   2    | 1.5 | 8    | 360000 * 4    | 3   | 11   | 180000
+Triple  *   2    | 1.5 | 10   | 360000 * 4    | 3   | 11   | 180000
 ******
 
 Weight:
