@@ -8,3 +8,5 @@ Gear_HeatSink_Generic_Double,HeatSink,4,2
 Gear_TargetingTrackingSystem_SLDF_1,Upgrade,2,1
 SLDF_Rgrav_extra_light,Upgrade,10,2
 SLDF_Rgrav_light,Upgrade,6,2
+Gear_HeatSink_SLDF_Upgraded,HeatSink,4,2
+Gear_HeatSink_SLDF_Upgraded_Small,HeatSink,2,2

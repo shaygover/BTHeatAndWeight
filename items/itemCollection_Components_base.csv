@@ -8,3 +8,5 @@ GRgrav_extra_light,Upgrade,8,2
 GRgrav_super_heavy,Upgrade,2,2
 Gear_HeatSink_RGeneric_Double,HeatSink,4,2
 Gear_HeatSink_RGeneric_Triple,HeatSink,2,1
+Gear_HeatSink_Upgraded,HeatSink,4,1
+Gear_HeatSink_Upgraded_Small,HeatSink,4,1

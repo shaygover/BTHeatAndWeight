@@ -1,0 +1,85 @@
+{
+    "DissipationCapacity" : 20,
+    "Description" : {
+        "Cost" : 250000,
+        "Rarity" : 10,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Upgraded Engine HeatSink",
+        "UIName" : "Upgraded Engine HeatSink",
+        "Id" : "Gear_HeatSink_Upgraded",
+        "Name" : "Upgraded Engine HeatSink",
+        "Details" : "This item provides an upgrade to the engine standard heatsink. This is done by adding more space to vent the heat. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively.",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 20 Heat / Turn",
+    "BonusValueB" : "- 5% Weapon Heat",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 1.4,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        {
+            "durationData" : {
+                "duration" : -1,
+                "ticksOnActivations" : false,
+                "useActivationsOfTarget" : false,
+                "ticksOnEndOfRound" : false,
+                "ticksOnMovements" : false,
+                "stackLimit" : -1,
+                "clearedWhenAttacked" : false
+            },
+            "targetingData" : {
+                "effectTriggerType" : "Passive",
+                "triggerLimit" : 0,
+                "extendDurationOnTrigger" : 0,
+                "specialRules" : "NotSet",
+                "effectTargetType" : "Creator",
+                "range" : 0,
+                "forcePathRebuild" : false,
+                "forceVisRebuild" : false,
+                "showInTargetPreview" : false,
+                "showInStatusPanel" : true
+            },
+            "effectType" : "StatisticEffect",
+            "Description" : {
+                "Id" : "StatusEffect-Heat_GenReduction-T1",
+                "Name" : "HEAT GENERATION DECREASED",
+                "Details" : "Heat generation reduced by [AMT].",
+                "Icon" : "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature" : "Buff",
+            "statisticData" : {
+                "appliesEachTick" : false,
+                "effectsPersistAfterDestruction" : false,
+                "statName" : "HeatGenerated",
+                "operation" : "Float_Multiply",
+                "modValue" : "0.95",
+                "modType" : "System.Single",
+                "additionalRules" : "NotSet",
+                "targetCollection" : "Weapon",
+                "targetWeaponCategory" : "NotSet",
+                "targetWeaponType" : "NotSet",
+                "targetAmmoCategory" : "NotSet",
+                "targetWeaponSubType" : "NotSet"
+            },
+            "tagData" : null,
+            "floatieData" : null,
+            "actorBurningData" : null,
+            "vfxData" : null,
+            "instantModData" : null,
+            "poorlyMaintainedEffectData" : null
+        }
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

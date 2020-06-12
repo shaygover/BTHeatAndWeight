@@ -1,0 +1,33 @@
+{
+    "DissipationCapacity" : 15,
+    "Description" : {
+        "Cost" : 150000,
+        "Rarity" : 10,
+        "Purchasable" : true,
+        "Manufacturer" : "Generic",
+        "Model" : "Upgraded Engine HeatSink (Small)",
+        "UIName" : "Upgraded Engine HeatSink (Small)",
+        "Id" : "Gear_HeatSink_Upgraded_Small",
+        "Name" : "Upgraded Engine HeatSink",
+        "Details" : "This item provides an upgrade to the engine standard heatsink. This is done by adding more space to vent the heat. Like standard Heat Sinks, their effectiveness can be impacted by the surrounding environment, positively or negatively. This is the small lightweight version",
+        "Icon" : "uixSvgIcon_equipment_Heatsink"
+    },
+    "BonusValueA" : "- 15 Heat / Turn",
+    "BonusValueB" : "",
+    "ComponentType" : "HeatSink",
+    "ComponentSubType" : "Heatsink",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : 0.65,
+    "AllowedLocations" : "CenterTorso",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}
